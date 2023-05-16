@@ -10,7 +10,7 @@ import java.util.*;
 import java.util.concurrent.*;
 import java.util.regex.*;
 
-class Result {
+class ResultAppleOrange {
 
     /*
      * Complete the 'countApplesAndOranges' function below.
@@ -87,7 +87,7 @@ public class AppleAndOrange {
             oranges.add(orangesItem);
         }
 
-        Result.countApplesAndOranges(s, t, a, b, apples, oranges);
+        ResultAppleOrange.countApplesAndOranges(s, t, a, b, apples, oranges);
 
         bufferedReader.close();
     }
